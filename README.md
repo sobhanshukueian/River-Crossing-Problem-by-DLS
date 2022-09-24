@@ -19,24 +19,24 @@ General conditions of the problem:
 # Result
 | Boat Side     | Left Side People | Right Side People |
 | ---      | --- | ----  |
-|left|['Boy', 'Boy', 'Father', 'Mother', 'Girl', 'Girl', 'Police', 'Thief']|[]|
-|right|['Boy', 'Boy', 'Father', 'Mother', 'Girl', 'Girl']|['Thief', 'Police']|
-|left|['Boy', 'Boy', 'Father', 'Mother', 'Girl', 'Police', 'Girl']|['Thief']|
-|right|['Boy', 'Boy', 'Father', 'Mother', 'Girl']|['Girl', 'Police', 'Thief']|
-|left|['Boy', 'Boy', 'Thief', 'Police', 'Father', 'Mother', 'Girl']|['Girl']|
-|right|['Boy', 'Boy', 'Thief', 'Police', 'Father']|['Girl', 'Girl', 'Mother']|
-|left|['Boy', 'Boy', 'Thief', 'Police', 'Father', 'Mother']|['Girl', 'Girl']|
-|right|['Boy', 'Boy', 'Thief', 'Police']|['Girl', 'Girl', 'Mother', 'Father']|
-|left|['Boy', 'Boy', 'Father', 'Thief', 'Police']|['Girl', 'Girl', 'Mother']|
-|right|['Boy', 'Boy', 'Father']|['Girl', 'Girl', 'Police', 'Thief', 'Mother']|
-|left|['Boy', 'Boy', 'Father', 'Mother']|['Girl', 'Girl', 'Police', 'Thief']|
-|right|['Boy', 'Boy']|['Girl', 'Girl', 'Mother', 'Police', 'Thief', 'Father']|
-|left|['Boy', 'Boy', 'Father']|['Girl', 'Girl', 'Mother', 'Police', 'Thief']|
-|right|['Boy']|['Girl', 'Girl', 'Father', 'Boy', 'Mother', 'Police', 'Thief']|
-|left|['Thief', 'Police', 'Boy']|['Girl', 'Girl', 'Father', 'Boy', 'Mother']|
-|right|['Thief']|['Girl', 'Girl', 'Father', 'Boy', 'Boy', 'Mother', 'Police']|
-|left|['Thief', 'Police']|['Girl', 'Girl', 'Father', 'Boy', 'Boy', 'Mother']|
-|right|[]|['Police', 'Thief', 'Girl', 'Girl', 'Father', 'Boy', 'Boy', 'Mother']|
+|left|Boy-Boy-Father-Mother-Girl-Girl-Police-Thief||
+|right|Boy-Boy-Father-Mother-Girl-Girl|Thief-Police|
+|left|Boy-Boy-Father-Mother-Girl-Police-Girl|Thief|
+|right|Boy-Boy-Father-Mother-Girl|Girl-Police-Thief|
+|left|Boy-Boy-Thief-Police-Father-Mother-Girl|Girl|
+|right|Boy-Boy-Thief-Police-Father|Girl-Girl-Mother|
+|left|Boy-Boy-Thief-Police-Father-Mother|Girl-Girl|
+|right|Boy-Boy-Thief-Police|Girl-Girl-Mother-Father|
+|left|Boy-Boy-Father-Thief-Police|Girl-Girl-Mother|
+|right|Boy-Boy-Father|Girl-Girl-Police-Thief-Mother|
+|left|Boy-Boy-Father-Mother|Girl-Girl-Police-Thief|
+|right|Boy-Boy|Girl-Girl-Mother-Police-Thief-Father|
+|left|Boy-Boy-Father|Girl-Girl-Mother-Police-Thief|
+|right|Boy|Girl-Girl-Father-Boy-Mother-Police-Thief|
+|left|Thief-Police-Boy|Girl-Girl-Father-Boy-Mother|
+|right|Thief|Girl-Girl-Father-Boy-Boy-Mother-Police|
+|left|Thief-Police|Girl-Girl-Father-Boy-Boy-Mother|
+|right||Police-Thief-Girl-Girl-Father-Boy-Boy-Mother|
 
 
 Done in 8.646481037139893s
